@@ -1,0 +1,89 @@
+.gpt3__whatgpt3 {
+    display : flex;
+    flex-direction : column;
+    background-color: var(--color-footer);
+    padding : 2rem;
+
+    /* firefox browser */
+    background : -moz-radial-gradient(circle at 85% -100%, rgba(34, 35, 23, 0.8) 30%, rgba(45, 34, 200, 0.7) 80% );
+
+    /* chrome and safari browser */
+    background : -webkit-radial-gradient(circle at 85% -100%, rgba(34, 35, 23, 0.8) 30%, rgba(45, 34, 200, 0.7) 80% );
+
+    /* internet explorer browser */
+    background : -ms-radial-gradient(circle at 85% -100%, rgba(34, 35, 23, 0.8) 30%, rgba(45, 34, 200, 0.7) 80% );
+
+    /* opera browser */
+    background : -o-radial-gradient(circle at 85% -100%, rgba(34, 35, 23, 0.8) 30%, rgba(45, 34, 200, 0.7) 80% );
+
+    /* standart browser */
+    background : radial-gradient(circle at 85% -100%, rgba(34, 35, 23, 0.8) 30%, rgba(45, 34, 200, 0.7) 80% );
+
+}
+
+.gpt3__whatgpt3-heading {
+    display : flex;
+    align-items : center;
+    justify-content : space-between;
+    padding : 0.5rem;
+}
+
+.gpt3__whatgpt3-heading h1 {
+    font-size : 3.5rem;
+    font-weight : 800;
+}
+
+.gpt3__whatgpt3-heading p {
+    color : var(--color-subtext);
+    font-size : 1.5rem;
+}
+
+.gpt3__whatgpt3-container {
+    display: flex;
+    flex-wrap : wrap;
+}
+
+.gpt3__whatgpt3-container .gpt3__features-container__feature {
+    display:  flex;
+    flex-direction : column;
+    flex : 1;
+}
+
+.gpt3__whatgpt3-container .gpt3__features-container_feature-text {
+    margin-top : 1.5rem;
+}
+
+@media screen and (max-width: 350px) {
+    .gpt3__whatgpt3-container .gpt3__features-container__feature {
+        margin : 1rem 0; 
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .gpt3__whatgpt3-heading h1 {
+        font-size : 1.5rem;
+    }
+
+    .gpt3__whatgpt3-heading p {
+        font-size : 0.8rem;
+    }
+
+    .gpt3__whatgpt3-container .gpt3__features-container_feature-text {
+        margin-top : 0.5rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .gpt3__whatgpt3-heading h1 {
+        font-size : 2.5rem;
+    }
+
+    .gpt3__whatgpt3-heading p {
+        font-size : 1rem;
+    }
+
+    .gpt3__whatgpt3-heading {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
