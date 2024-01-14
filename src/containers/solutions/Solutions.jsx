@@ -25,7 +25,7 @@ const Solutions = () => {
     <div className="gpt3__features section__padding" id="solutions">
       <div className="gpt3__features-heading">
         <h1 className="gradient__text">This discovery is the solution</h1>
-        <p>Get requested earlt to access it</p>
+        <p>It can deal with numurous tasks.</p>
       </div>
 
       <div className="gpt3__features-container">

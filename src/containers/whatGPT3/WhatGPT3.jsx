@@ -28,9 +28,9 @@ const WhatGPT3 = () => {
       </div>
 
       <div className="gpt3__whatgpt3-container">
-        {content.map((item) => (
+        {content.map((item, index) => (
           <Feature 
-            id={item.title}
+            key={`${item.title}-${index}`}
             title={item.title} 
             text={item.text} />
         ))}
