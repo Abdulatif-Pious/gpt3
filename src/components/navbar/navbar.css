@@ -1,23 +1,17 @@
 .gpt3__navbar {
     display : flex;
-    padding : 1rem 6rem;
+    align-items: center;
+    justify-content: space-between;
+    padding:  0 2rem;
     background-color : rgba(0,0,0, 0.4);
     position : fixed;
     z-index : 10;
     width : 100%;
-
+    height: 80px;
 }
 
 .gpt3__navbar-links {
-    display : flex;
-    flex : 1;
-    align-items : center;
-    justify-content : center; 
-}
-
-.gpt3__navbar-links_logo {
-    display: flex;
-    align-items: center;
+    display : flex; 
 }
 
 .gpt3__navbar-links_logo img {
@@ -38,23 +32,42 @@
     cursor : pointer;
     font-size : 14px;
     text-transform : uppercase;
-}   
+} 
+
+.gpt3__navbar-links_container p:hover {
+    opacity: 80%;
+}
+
+.gpt3__navbar-sign p {
+    border: 2px solid transparent;
+    border-image: var(--gradient-text);
+    border-image-slice: 1;
+    padding: 12px;
+    cursor :  pointer;
+}
+
+.gpt3__navbar-sign p:hover {
+    opacity: 80%;
+}
 
 .gpt3__navbar-sign {
     display : flex;
-    align-items : center; 
-    justify-content: flex-end;
-    flex : 1;
+    align-items: center;
 }
 
 .gpt3__navbar-sign button, .gpt3__navbar-menu_container-links-sign button {
+    border: none;
     font-size : 14px;
     background: var(--gradient-text);
-    padding : 1rem ;
+    padding : 12px ;
     color : #fff;
     text-transform : uppercase;
     cursor :  pointer;
-    border-radius : 7px;
+    border-radius : 12px;
+}
+
+.gpt3__navbar-sign button:hover, .gpt3__navbar-menu_container-links-sign button:hover {
+    opacity: 80%;
 }
 
 .gpt3__navbar-menu {
@@ -64,8 +77,13 @@
     position : relative;
 }
 
+
 .gpt3__navbar-menu svg {
     cursor : pointer;
+}
+
+.gpt3__navbar-menu svg:hover {
+    opacity: 80%;
 }
 
 .gpt3__navbar-menu_container {
@@ -88,11 +106,11 @@
     margin : 1rem 2rem;
 }
 
-@media screen and (max-width : 550px) {
+.gpt3__navbar-menu_container-links p:hover {
+    opacity: 80%;
+}
 
-    .gpt3__navbar-sign {
-        display: none;
-    }
+@media screen and (max-width : 550px) {
 
     .gpt3__navbar-menu_container-links-sign {
         display: block;
@@ -100,6 +118,10 @@
 }
 
 @media screen and (max-width : 1200px) {
+    .gpt3__navbar-sign {
+        display: none;
+    }
+    
     .gpt3__navbar-links {
         display : none;
     }

@@ -6,13 +6,13 @@
 }
 
 .gpt3__features-container__feature-title {
-    max-width : 180px;
+    text-align: center;
     flex : 1;
 }
 
 .gpt3__features-container__feature-title h1 {
     color: #fff;
-    font-size: 2rem;
+    font-size: 32px;
 }
 
 .gpt3__features-container__feature-title div {
@@ -31,7 +31,7 @@
 }
 
 .gpt3__features-container_feature-text p {
-    font-size: 1.3rem;
+    font-size: 18px;
     color :  var(--color-text);
     line-height: 1.9;
 }

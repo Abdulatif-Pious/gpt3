@@ -6,7 +6,6 @@ const CTA = () => {
   return (
     <div className="gpt3__cta section__margin">
       <div className="gpt3__cta-content">
-        <p>request early to access it</p>
         <h3>Register now & start exploring the endless possibilities.</h3>
       </div>
 
@@ -15,7 +14,7 @@ const CTA = () => {
       </div>
       
     </div>
-  )
-}
+  );
+};
 
 export default CTA;

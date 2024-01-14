@@ -27,6 +27,11 @@ a {
   background : radial-gradient(circle at 3% 20%, rgba(33, 13, 83, 0.8) 0%, rgba(4, 33, 34, 0.5) 25%);  
 }
 
+.app__max-size {
+  max-width: 1600px;
+  margin: auto;
+}
+
 .gradient__text {
   background : var(--gradient-text);
   -webkit-backround-clip : text;

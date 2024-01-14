@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Navbar, Brand, CTA  } from "./components";
-import { Header, WhatGPT3, Features, Blog, Possibility, Footer } from "./containers";
+import { Header, WhatGPT3, Solutions, Blog, Possibility, Footer } from "./containers";
 import "./App.css"
 
 const App = () => {
@@ -9,19 +9,20 @@ const App = () => {
     <div className="App">
       <div className="gradient__bg">
         <Navbar />
-        <Header />
+        <div className="app__max-size">
+          <Header />
+          <Brand />
+          <WhatGPT3 />
+          <Solutions />
+          <Possibility />
+          <CTA />
+          <Blog />
+          <Footer />
+        </div>
       </div>
-      <Brand />
-      <WhatGPT3 />
-      <Features />
-      <Possibility />
-      <CTA />
-      <Blog />
-      <Footer />
     </div>
   )
-
-} 
+}; 
 
 
 export default App;

@@ -7,18 +7,20 @@ const Footer = () => {
   return (
     <div className="gpt3__footer section__padding">
       <div className="gpt3__footer-heading">
-        <h1 className="gradient__text"> Do you want step in to the future ahead others</h1>
+        <h1 className="gradient__text">Do you want step into the future </h1>
       </div>
 
       <div className="gpt3__footer-btn"> 
-        <p>Reaquest early access</p>
+        <button type="button">Request early access</button>
       </div>
 
       <div className="gpt3__footer-links">
-        <div className="gpt3__footer-links_logo">
+        <a
+          href="/" 
+          className="gpt3__footer-links_logo"
+        >
           <img src={logo} alt="logo_img"/>
-          <p>Address <br /> All rights reserved.</p>
-        </div>
+        </a>
 
         <div className="gpt3__footer-links_div">
           <h4>Links</h4>
@@ -42,7 +44,11 @@ const Footer = () => {
       </div>
 
       <div className="gpt3__footer-copyright">
-        <p>@2021 gpt3. <br />All rights reserved</p>
+        <p>
+          @2023 GPT-3. 
+          <br />
+          All rights reserved
+        </p>
       </div>
     </div>
   )

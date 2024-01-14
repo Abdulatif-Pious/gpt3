@@ -9,17 +9,20 @@ const Navbar = () => {
   
   return (
     <div  className="gpt3__navbar">
-        <div className="gpt3__navbar-links_logo">
-          <img  src={logo} alt="GPT3 logo" />
-        </div>
+      <a 
+        href="/"
+        className="gpt3__navbar-links_logo" 
+      >
+        <img  src={logo} alt="GPT3 logo" />
+      </a>
       <div className="gpt3__navbar-links">
 
         <div className="gpt3__navbar-links_container">
           <p><a href="#home">Home</a></p>
           <p><a href="#wgpt3">What is GPT3 ?</a></p>
+          <p><a href="#solutions">solutions</a></p>
           <p><a href="#possibility">Open AI</a></p>
-          <p><a href="#features">Case Studies</a></p>
-          <p><a href="#blog">Library</a></p>
+          <p><a href="#blog">Blog</a></p>
         </div>
         
       </div>
@@ -41,9 +44,9 @@ const Navbar = () => {
             <div className="gpt3__navbar-menu_container-links">
                 <p><a href="#home">Home</a></p>
                 <p><a href="#wgpt3">What is GPT3 ?</a></p>
+                <p><a href="#solutions">solutions</a></p>
                 <p><a href="#possibility">Open AI</a></p>
-                <p><a href="#features">Case study</a></p>
-                <p><a href="#blog">Library</a></p>
+                <p><a href="#blog">Blog</a></p>
             </div>
 
             <div className="gpt3__navbar-menu_container-links-sign">

@@ -19,11 +19,6 @@
     justify-content: center;
 }
 
-.gpt3__possibility-content h4 {
-    font-size: 1.3rem;
-    color : var(--color-text);
-    margin : 1rem 0; 
-}
 
 .gpt3__possibility-content h1 {
     font-size: 3rem;
@@ -31,9 +26,10 @@
 }
 
 .gpt3__possibility-content p {
-    font-size: 1.3rem;
-    color : var(--color-subtext);
+    font-size: 18px;
+    color : var(--color-text);
     margin : 1rem 0;
+    line-height: 1.9;
 }
 
 @media screen and (max-width : 950px) {
@@ -50,7 +46,7 @@
         font-size: 2rem;
     }
 
-    .gpt3__possibility-content p,  .gpt3__possibility-content h4  {
+    .gpt3__possibility-content p  {
         font-size: 1rem;
     }
 }

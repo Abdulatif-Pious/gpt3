@@ -22,9 +22,7 @@
 }
 
 .gpt3__whatgpt3-heading {
-    display : flex;
-    align-items : center;
-    justify-content : space-between;
+    text-align: center;
     padding : 0.5rem;
 }
 
@@ -34,8 +32,9 @@
 }
 
 .gpt3__whatgpt3-heading p {
-    color : var(--color-subtext);
-    font-size : 1.5rem;
+    margin-top: 1rem;
+    color : var(--color-text);
+    font-size : 18px;
 }
 
 .gpt3__whatgpt3-container {

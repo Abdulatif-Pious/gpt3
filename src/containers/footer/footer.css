@@ -5,33 +5,34 @@
 }
 
 .gpt3__footer-heading h1 {
+    text-align: center;
     font-size : 3rem;
     font-weight : 800;
     letter-spacing : 0.04rem;
 }
 
-.gpt3__footer-btn {
-    margin : 2rem 0;
-    color : var(--color-text);
+.gpt3__footer-btn button {
+    font-size : 18px;
+    color : #fff;
     background : var(--gradient-text);
+    border-radius : 12px;
+    margin : 2rem 0;
     padding : 1rem 1.5rem;
-    border : 1px solid #fff;
-    font-size : 1.3rem;
-    cursor : pointer;
     outline: none;
-    border-radius : 7px;
+    cursor : pointer;
+}
+
+.gpt3__footer-btn button:hover {
+    opacity: 80%;
 }
 
 .gpt3__footer-links {
     display: flex;
     flex-wrap : wrap;
     justify-content : space-between;
+    gap: 2rem;
     width: 100%;
-    margin : 2rem 0;
-}
-
-.gpt3__footer-links_logo {
-    margin-right : 2rem;
+    margin : 1rem 0;
 }
 
 .gpt3__footer-links_logo img {
@@ -55,12 +56,16 @@
 .gpt3__footer-links_div p {
     margin : 0.5rem 0;
     color : #fff;
-    font-size : 1.1rem;
+    font-size : 16px;
     cursor : pointer;
 }
 
+.gpt3__footer-links_div p:hover {
+    opacity: 80%;
+}
+
 .gpt3__footer-copyright {
-    margin : 1rem 0;
+    margin : 0.5rem 0;
     color : #fff;
 }
 
